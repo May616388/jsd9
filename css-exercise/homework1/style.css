@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* -------Resetค่าให้เป็นมาตราฐาน------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    font-family: "Inter", sans-serif;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+/* -----------guideline------------- */
+ * {
+  outline: red solid 1px;
+} 
+/* --------------------------------- */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    height: auto;
+	margin: 0 auto;
+    padding: 40px;
+    background-color: #f5f5f6;
+    border: 2px solid #001725;
+	/* height: 100vh; */
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 24px;
+
+    /* justify-content: space-between;
+    flex-grow: 1; */
+}
+
+/* -------------header-------------- */
+.header__title--small {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.header__description--highlight{
+    font-size: 2.7rem;
+    max-width: 35ch;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* -------------main-------------- */
+h2 {
+    text-wrap: pretty;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.paragraph--regular {
+    text-wrap: pretty;
+    font-size: 1.5rem;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 38ch;
+}
+
+.paragraph--bold{
+    text-wrap: pretty;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 35ch;
+}
+
+/* -------------section> Breadth-------------- */
+.card__number--blue{
+    margin-bottom: 24px;
+}
+
+.statistics__number--blue{
+    display: inline-block;
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 10px;
+    width: 416px;
+    height: 160px;
+    background-color: #0074b9;
+    color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.paragraph--bold--blue{
+    text-wrap: pretty;
+    font-size: 1.5rem;
+    font-weight: 700;
+    max-width: 30ch;
+}
+
+/* -------------section> Depth-------------- */
+.card__content--default{
+    margin-bottom: 24px;
+}
+
+.statistics__number--green{
+    display: inline-block;
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 10px;
+    /* width: 416px; */
+    height: 160px;
+    background-color: #32b34d;
+    color: #001725;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.statistics__number--small{
+    display: inline-block;
+    font-size: 5.15rem;
+    font-weight: 700;
+    padding: 0px 10px;
+    /* width: 416px; */
+    /* height: 160px; */
+    background-color: #32b34d;
+    color: #001725;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+/* -------------section> Durability-------------- */
+/* ----------header---------- */
+.paragraph--bold--durability{
+    text-wrap: pretty;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+/* -------------------------- */
+.statistics__box--yellow{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.statistics--small{
+    display: flex;
+    flex-direction: column;
+}
+
+.statistics__number--yellow{
+    font-size: 4.25rem;
+    font-weight: 700;
+    display: inline-block;
+    background-color: #ffd449;
+    color: #001725;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 4px;
+    letter-spacing: 0.15rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+    
+.paragraph--small{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* ---------------Button---------------- */
+.button--default{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 16px 24px;
+    color: #001725;
+    background-color: #fff;
+    border: 2px solid #001725;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 4px 4px 0px #001725; /* เงา */
+}
+
+.button--default:hover{
+    background-color: #AAD1E8;
+}
+

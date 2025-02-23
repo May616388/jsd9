@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ------------Resetเป็นค่ามาตราฐาน------------ */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: pretty;
+}
+/* -----------guideline------------- */
+ /* * {
+  outline: red solid 1px;
+}  */
+/* --------------------------------- */
+
+body{
+    max-width: 80vw;
+	height: 100vh;
+	margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #f4f4f4;
+	color: #333;
+}
+
+.container{
+    width: 1240px;
+    height: 632px;
+    padding: 4px 80px 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* เงา */
+    
+}
+
+.card__image{
+    flex: 1;
+    min-width: 520px;
+    box-shadow: 20px 20px 0px rgba(0, 117, 189); /* เงา */
+    border-radius: 30px;
+}
+
+.card__image img{
+    width: 520px;
+    aspect-ratio: 1 / 1; /* หมายถึงอัตราส่วนกว้าง : สูง เป็น 1:1 */
+    object-fit: cover;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+h1{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.button--default{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 240px;
+    height: 48px;
+    background-color: #80b9dc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 4px 4px 0px #333; /* เงา */
+}

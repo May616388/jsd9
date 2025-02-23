@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ------------Resetเป็นค่ามาตราฐาน------------ */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p {
+	text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+/* -----------guideline------------- */
+ /* * {
+  outline: red solid 1px;
+}  */
+/* --------------------------------- */
+
+body {
+    max-width: 80vw;
+	height: 100vh;
+	margin: 0 auto;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #f4f4f4;
+	color: #333;
+    font-family: "Inter", sans-serif ;
+}
+
+.container{
+    width: 860px;
+	height: 1200px;
+    background-color: #EBECF0;
+    padding: 40px 60px;
+    /* padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px; */
+    border: #333 solid 1px;
+
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.header p {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+
+}
+
+.card__content1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-weight: 700;
+    width: 24rem;
+    height: 12rem;
+    padding: 10px, 10px;
+    background-color: #32b34d;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-bottom: 1rem;
+}
+
+.card__content1 p {
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.card__content2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    font-weight: 700;
+    width: 38rem;
+    height: 10rem;
+    padding: 10px, 10px;
+    background-color: #32b34d;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+.card__content2 p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
