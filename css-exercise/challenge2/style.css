@@ -52,7 +52,7 @@ body{
 	justify-content: center;
 	align-items: center;
     background-color: #f4f4f4;
-	color: #333;
+	color: #001725;
 }
 
 .container{
@@ -111,5 +111,5 @@ p {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    box-shadow: 4px 4px 0px #333; /* เงา */
+    box-shadow: 4px 4px 0px #001725; /* เงา */
 }

@@ -15,9 +15,9 @@ body {
     background-color: #fff;
 }
 /* -----------guideline------------- */
- * {
+ /* * {
   outline: red solid 1px;
-} 
+}  */
 /* --------------------------------- */
 
 
@@ -48,6 +48,7 @@ main {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: #001725;
 }
 
 .header__description--highlight{
@@ -55,6 +56,7 @@ main {
     max-width: 35ch;
     font-weight: 700;
     margin-bottom: 2rem;
+    color: #001725;
 }
 
 /* -------------main-------------- */
@@ -63,6 +65,7 @@ h2 {
     font-size: 2.7rem;
     font-weight: 700;
     margin-bottom: 24px;
+    color: #001725;
 }
 
 .paragraph--regular {
@@ -71,6 +74,7 @@ h2 {
     margin-top: 16px;
     margin-bottom: 16px;
     max-width: 38ch;
+    color: #001725;
 }
 
 .paragraph--bold{
@@ -78,6 +82,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: 700;
     max-width: 35ch;
+    color: #001725;
 }
 
 /* -------------section> Breadth-------------- */
@@ -109,6 +114,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: 700;
     max-width: 30ch;
+    color: #001725;
 }
 
 /* -------------section> Depth-------------- */
@@ -161,6 +167,7 @@ h2 {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: #001725;
 }
 /* -------------------------- */
 .statistics__box--yellow{
@@ -194,6 +201,7 @@ h2 {
 .paragraph--small{
     font-size: 1.25rem;
     font-weight: 600;
+    color: #001725;
 }
 
 /* ---------------Button---------------- */
